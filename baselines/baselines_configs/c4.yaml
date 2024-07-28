@@ -34,7 +34,7 @@
       length_type: sentence
       min_length: 3
       tokenizer: nltk
-      tokenizer_lang: english
+      tokenizer_lang: turkish
     - func: split_lines_modifier
       delimiter: "\n"
     # Chunk 2: URL Dedup
@@ -73,5 +73,5 @@
           default: "unknown"
     - func: language_filter
       key: language_id_whole_page_langdetect
-      keep_languages: [ en ]
+      keep_languages: [ tr ]
       threshold: 0.99
